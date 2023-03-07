@@ -5,6 +5,7 @@ array.push
 array.unshift
 array.pop()
 array.shift()
+array splice method
 
 // non-mutating method
 array.concat() 

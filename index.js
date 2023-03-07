@@ -1,4 +1,18 @@
 // QUESTION No. 1
+Mutating methods are ones that change the object after the method has been used. While Non-mutating methods do not change the object after the method has been used.
+// mutating method
+array.push
+array.unshift
+array.pop()
+array.shift()
+
+// non-mutating method
+array.concat() 
+…array spread operator
+array.filter()
+array.slice()
+array.map()
+
 
 
 // QUESTION NO. 2

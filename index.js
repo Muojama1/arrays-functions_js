@@ -55,6 +55,23 @@ value of fruit = [ 'apple', 'mango', 'orange' ]
 
 
 
+// QUESTION No. 4
+function findMaxValue(values) {
+    let maxValue = values[0];
+    for (let index = 1; index < values.length; index++) {
+        if (values[index] > maxValue) {
+            maxValue = values[index];
+        }
+    }
+    return maxValue;  
+}
+const someValues = [32, 54, 87, 30, 29, 72, 66, 12, 85, 43, 98];
+console.log(findMaxValue(someValues));
+
+
+
+
+
 
 
 
